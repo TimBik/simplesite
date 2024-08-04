@@ -19,7 +19,7 @@
         <h2>{{ bb.title }}</h2>
         <p>{{ bb.content }}</p>
         <p>
-            <a href="/bboard/{{ bb.rubric.pk }}/">
+            <a href="{% url 'index' %}">
                 {{ bb.rubric.name }}
             </a>
         </p>
