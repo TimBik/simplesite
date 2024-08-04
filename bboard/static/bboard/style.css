@@ -3,6 +3,7 @@ header h1 {
     text-transform: uppercase;
     text-align: center;
     background: url("bg.png") left / auto 100% no-repeat;
+    margin: 40px 10px;
 }
 
 nav {
@@ -13,9 +14,9 @@ nav {
 
 nav a {
     display: block;
-    margin: 10px 0px;
+    margin: 15px 10px;
 }
 
 section {
-    margin-left: 170px;
+    margin-left: 200px;
 }
